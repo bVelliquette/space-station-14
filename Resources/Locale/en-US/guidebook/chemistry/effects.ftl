@@ -386,3 +386,9 @@ reagent-effect-guidebook-plant-robust-harvest =
         [1] Increases
         *[other] increase
     } the plant's potency by {$increase} up to a maximum of {$limit}. Causes the plant to lose its seeds once the potency reaches {$seedlesstreshold}. Trying to add potency over {$limit} may cause decrease in yield at a 10% chance
+
+reagent-effect-guidebook-plant-opporozidone =
+    { $chance ->
+        [1] Restores
+        *[other] restores
+    } life to the dead plant

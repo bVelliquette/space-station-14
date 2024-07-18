@@ -1158,6 +1158,11 @@
   flavor: acid
   color: "#b5e36d"
   worksOnTheDead: true
+  plantMetabolism:
+    - !type:PlantOpporozidone
+      conditions:
+      - !type:ReagentThreshold
+        min: 4
   metabolisms:
     Medicine:
       effects:
