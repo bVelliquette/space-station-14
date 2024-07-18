@@ -390,5 +390,5 @@ reagent-effect-guidebook-plant-robust-harvest =
 reagent-effect-guidebook-plant-opporozidone =
     { $chance ->
         [1] Restores
-        *[other] restores
+        *[other] restore
     } life to the dead plant
